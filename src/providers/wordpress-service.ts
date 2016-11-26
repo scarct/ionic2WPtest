@@ -16,7 +16,7 @@ export class WordpressService {
   }
 
 
-  /*load() {
+  load() {
     if (this.data1) {
       //already loaded data
       return Promise.resolve(this.data1);
@@ -36,6 +36,5 @@ export class WordpressService {
     }
     )
   }
-*/
 
 }
