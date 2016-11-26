@@ -30,7 +30,7 @@ export class WordpressService {
         .map(res => res.json())
         .subscribe(data => {
           //we've got the raw data, now generate the core schedule data and save the data for later reference
-          this.data1 = data.results;
+          this.data1 = data;
           resolve(this.data1);
         });
     }
